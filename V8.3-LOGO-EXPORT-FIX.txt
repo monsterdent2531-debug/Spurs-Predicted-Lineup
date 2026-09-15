@@ -1,0 +1,11 @@
+V8.3
+แก้ Export โลโก้สโมสรและโลโก้ทัวร์นาเมนต์บน iPhone:
+- วาดโลโก้ลง Canvas โดยตรง
+- ตำแหน่ง/ขนาดอ่านจาก Preview
+- รักษาสัดส่วนแบบ contain
+- ไม่แก้ระบบรูปนักเตะ/พื้นหลัง
+
+หมายเหตุ: ZIP ที่ส่งมานี้ไม่มีไฟล์โลโก้ทัวร์นาเมนต์จริงใน public/images/competitions
+มีแค่ PUT-COMPETITION-LOGOS-HERE.txt
+ใส่ไฟล์ premier-league.png, carabao-cup.png, fa-cup.png,
+champions-league.png ในโฟลเดอร์ดังกล่าว แล้วระบบ Export จะวาดให้โดยตรง

@@ -1,0 +1,7 @@
+แก้เฉพาะ V8:
+- Export รูปนักเตะเป็นวงกลมพื้นขาว
+- ปิด shadow ของวงกลมนักเตะ
+- ปิด shadow ของ teamBox, numberBox, playerName เฉพาะตอน Export
+- แก้แถบสีเทาหลัง Tottenham Hotspur และหลังเบอร์ 19
+- Preview หลัง Save ถูกคืนค่าเดิม
+- Output 2000x2500 เหมือนเดิม

@@ -1,0 +1,6 @@
+V8.2
+1) ช่องไฟระหว่างรูปนักเตะกับชื่อ: ใช้ -8px ทั้ง Desktop/Mobile
+2) Export: playerCircle ถูกล็อก width/height เป็น px เท่ากันก่อน capture
+3) ไม่ใช้ clip-path ตอน Export เพื่อเลี่ยง Safari ยืดวงกลมเป็นวงรี
+4) พื้นหลัง/ตำแหน่ง/ระบบ V8 เดิมไม่เปลี่ยน
+5) Output 2000x2500 เหมือนเดิม

@@ -1,0 +1,1 @@
+วางไฟล์ sofascore.png และ spurs-content.png ในโฟลเดอร์นี้ หากต้องการใช้รูป default

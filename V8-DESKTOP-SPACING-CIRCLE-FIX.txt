@@ -1,0 +1,6 @@
+แก้ไขจาก V8 ที่ผู้ใช้ส่งมาโดยตรง
+- ตอน Export บังคับ Poster เป็นฐาน 800x1000 แบบ Desktop
+- Export 2.5x = 2000x2500
+- ช่องไฟรูปนักเตะกับชื่อจึงอิง Desktop ไม่ใช่ Mobile
+- บังคับ playerCircle aspect-ratio 1:1 ตอน Export ป้องกันวงรี
+- หลัง Export คืน Preview เป็นขนาดเดิม

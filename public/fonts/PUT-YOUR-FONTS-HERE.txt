@@ -1,0 +1,3 @@
+Place your original font files here:
+Premier League.otf
+Premier League Bold.otf
