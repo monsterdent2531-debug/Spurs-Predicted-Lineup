@@ -586,22 +586,7 @@ export default function Page() {
         .replace(/^-+|-+$/g, "") || "opponent";
 
       const fileName = `predicted-lineup-${safeName}-2000x2500.png`;
-      const file = new File([blob], fileName, { type: "image/png" });
-
-      // 6) HTTPS: Share Sheet / HTTP-LAN-PC: ดาวน์โหลด
-      if (
-        window.isSecureContext &&
-        navigator.share &&
-        navigator.canShare &&
-        navigator.canShare({ files: [file] })
-      ) {
-        await navigator.share({
-          files: [file],
-          title: "Predicted Line Up",
-        });
-        return;
-      }
-
+      // 6) ดาวน์โหลด PNG ลงเครื่องโดยตรง — ไม่เปิด Share Sheet
       const blobUrl = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = blobUrl;
